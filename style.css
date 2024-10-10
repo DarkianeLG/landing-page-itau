@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -37,7 +41,7 @@ nav ul {
 
 nav a{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -59,7 +63,7 @@ header .busca {
 header .busca input {
     background-color: #e0680b;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     border: 0 solid white;
     border-radius: 0;
@@ -70,13 +74,13 @@ header .busca input {
 
 .busca input::placeholder {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 header .conta a{
     display: flex;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     cursor: pointer;
     transition: 0.3s ease;
