@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #e0680b;
+    padding: 20px 80px 30px 80px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    gap: 50px;
+}
+
+nav a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+header .container-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 20px;
+
+}
+
+header .busca {
+    display: flex;
+    gap: 12px;
+}
+
+header .busca input {
+    background-color: #e0680b;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 0 solid white;
+    border-radius: 0;
+    width: 200px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.busca input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+header .conta a{
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    gap: 15px;
+}
+
+.conta a:hover, nav a:hover {
+    background-color: #f4873a;
+}
+
+
+
