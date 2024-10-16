@@ -1,0 +1,53 @@
+@media(max-width: 1245px) {
+
+    header .busca input {
+        width: 100px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    header .busca input {
+        font-size: 11px;
+        width: 100px;
+    }
+
+    .busca input::placeholder {
+        font-size: 10px;
+    }
+
+    header .conta a {
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    .container-principal .baixar-app {
+        font-size: 13px;
+    }
+
+    .container-principal .baixar img {
+        width: 150px;
+    }
+
+    .container-principal .propaganda {
+        max-width: 300;
+    }
+
+    .container-principal2 .paragrafo {
+        font-size: 10px;
+    }
+
+    .container-principal2 h2 {
+        font-size: 28px;
+    }
+
+    .container-principal2 .paragrafo2 {
+        font-size: 13px;
+    }
+
+    .container-principal2 ul li {
+        font-size: 13px;
+        padding-bottom: 50px;
+    }
+}
