@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="recursividade.css">
+
 </head>
 
 <body>
@@ -18,55 +19,41 @@
                     <img src="img/logo.svg" alt="logo">
                 </a>
             </div>
-            <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <nav class="right-itens" id="navbar">
                 <ul>
-                    <li>
-                        <a href="#">Para você <img src="img/seta.svg" alt="seta">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">Para empresas <img src="img/seta.svg" alt="seta">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">Serviços <img src="img/seta.svg" alt="seta">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">Ajuda <img src="img/seta.svg" alt="seta">
-                        </a>
-                    </li>
+                    <li><a href="#">Para você <img src="img/seta.svg" alt="seta"></a></li>
+                    <li><a href="#">Para empresas <img src="img/seta.svg" alt="seta"></a></li>
+                    <li><a href="#">Serviços <img src="img/seta.svg" alt="seta"></a></li>
+                    <li><a href="#">Ajuda <img src="img/seta.svg" alt="seta"></a></li>
                 </ul>
+                <div class="container-pesquisa">
+                    <div class="busca">
+                        <img src="img/icon-lupa.svg" alt="lupa">
+                        <input type="text" placeholder="Buscar">
+                    </div>
+                    <div class="conta">
+                        <a href="#">
+                            <img src="img/icon-user.svg" alt="conta">
+                            <p>Acessar conta</p>
+                        </a>
+                    </div>
+                </div>
             </nav>
-            <div class="container-pesquisa">
-                <div class="busca">
-                    <img src="img/icon-lupa.svg" alt="lupa">
-                    <input type="text" placeholder="Buscar">
-                </div>
-                <div class="conta">
-                    <a href="#">
-                        <img src="img/icon-user.svg" alt="conta">
-                        <p>Acessar conta</p>
-                    </a>
-                </div>
-            </div>
         </div>
     </header>
+
 
     <section class="container-principal">
         <div class="secao-principal">
             <div class="secao">
-                <h1>Tenha seu <br> banco na palma <br> da mão.</h1>
+                <h1>Tenha seu banco na palma da mão.</h1>
             </div>
             <div class="baixar-app">
-                <p>Todas as operações que você precisa em um só <br> lugar. Simples, completo e feito pra você.</p>
+                <p>Todas as operações que você precisa em um só lugar. Simples, completo e feito pra você.</p>
                 <div class="baixar">
                     <a href="#"><img src="img/btn-apple-store.svg" alt="play store apple"></a>
                     <a href="#"><img src="img/btn-google-play.svg" alt="play store android"></a>
-                </div>
-                <div class="explorar">
-                    <img src="img/arrow-explorer.svg" alt="seta">
-                    <p>Continue explorando</p>
                 </div>
             </div>
         </div>
@@ -75,15 +62,16 @@
         </div>
     </section>
 
+
     <section class="container-principal2">
         <div class="informacao">
             <div class="paragrafo">
                 <p>SERVIÇOS EXCLUSIVOS</p>
             </div>
-            <h2>Gerencie suas finanças <br> sem sair de casa</h2>
+            <h2>Gerencie suas finanças sem sair de casa.</h2>
             <div class="paragrafo2">
-                <p>Veja como você pode usar o dinheiro da suas finanças pelo app Itaú de forma <br> segura, rápida e
-                    o melhor, no conforto da sua casa.</p>
+                <p>Veja como você pode usar o dinheiro da suas finanças pelo app Itaú de forma segura, rápida e o
+                    melhor, no conforto da sua casa.</p>
             </div>
             <ul>
                 <li>
@@ -109,6 +97,8 @@
         </div>
     </section>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
