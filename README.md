@@ -1,6 +1,6 @@
 # Landing Page - Itaú
 
-Este é um projeto de uma landing page inspirada no Itaú, desenvolvida com HTML, CSS e JavaScript.
+Este é um projeto de uma landing page inspirada no Itaú, projetada para treinar habilidades de front-end
 
 ## Tecnologias Utilizadas
 - HTML5
